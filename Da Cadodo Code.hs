@@ -2,34 +2,34 @@
 --
 -- INSTRUCTIONS
 -- 
--- Pick whatever book you want (the receiver of the message must have the same exact copy!!)
+-- Pick whatever book you want (the receiver of the message must have the same exact copy!!).
 --
--- Note the page, line and position on the line for each word
+-- Note the page, line and position on the line for each word.
 --
--- For example the word Beethoven appears on page 51, line 15, position 8 on "Biliões e Biliões" by Carl Sagan
--- Hence the input we insert into the code will be a tuple like this (51,15,8)
+-- For example the word Beethoven appears on page 51, line 15, position 8 on "Biliões e Biliões" by Carl Sagan.
+-- Hence the input we insert into the code will be a tuple like this (51,15,8).
 -- 
--- Make a list like this [(51,15,8),(49,8,6),(91,16,6)] with as many words as you'd like
+-- Make a list like this [(51,15,8),(49,8,6),(91,16,6)] with as many words as you'd like.
 --
--- Go to the bottom where it says print and write (daCadodoCode [(51,15,8),(49,8,6),(91,16,6)]) inside it
+-- Go to the bottom where it says print and write (daCadodoCode [(51,15,8),(49,8,6),(91,16,6)]) inside it.
 --
--- Wait a few seconds and the code is done
+-- Wait a few seconds and the code is done.
 --
--- You'll get something like this "wmmana..,,sfnwni..,smmsnf..,,"
+-- You'll get something like this "wmmana..,,sfnwni..,smmsnf..,,".
 --
--- To reverse the code it's more tricky because I'm a weak programmer
+-- To reverse the code it's more tricky because I'm a weak programmer.
 --
--- Go to the bottom where it says print and write (daCadodoCodeReverse "wmmana..,,sfnwni..,smmsnf..,,") inside it
+-- Go to the bottom where it says print and write (daCadodoCodeReverse "wmmana..,,sfnwni..,smmsnf..,,") inside it.
 --
--- Wait a few seconds
+-- Wait a few seconds.
 --
--- You'll get something like this "511508490806911606..,,..,..,,"
+-- You'll get something like this "511508490806911606..,,..,..,,".
 --
--- It's weird but if you look closely you can notice some similarities with the initial tuple
+-- It's weird but if you look closely you can notice some similarities with the initial tuple.
 --
--- Each dot represents the number of algarism of the page and the comas the number of algarisms of the line (ignore the zeros, they are just there to help to translate) 
+-- Each dot represents the number of algarism of the page and the comas the number of algarisms of the line (ignore the zeros, they are just there to help to translate). 
 --
--- If you translate this you'll get (51,15,08),(49,8,6),(91,16,6)
+-- If you translate this you'll get (51,15,08),(49,8,6),(91,16,6).
 --
 -- Congratulations! You've successfully used the Da Cadodo Code in both ways. Now pick up a book you and a friend have and start communicating in secret!
 
@@ -182,4 +182,4 @@ main :: IO ()
 main =  do
 
 print()
--- Write (daCadodoCode code) or (daCadodoCodeReverse code) inside the print and watch the magic
+-- Write (daCadodoCode code) or (daCadodoCodeReverse code) inside the print and watch the magic!
